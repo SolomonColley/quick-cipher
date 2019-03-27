@@ -198,14 +198,14 @@ Partial Class MainForm
         Me.CopyButton.Name = "CopyButton"
         Me.CopyButton.Size = New System.Drawing.Size(155, 38)
         Me.CopyButton.TabIndex = 6
-        Me.CopyButton.Text = "C&opy"
+        Me.CopyButton.Text = "C&opy output"
         Me.CopyButton.UseVisualStyleBackColor = True
         '
         'ClearButton
         '
         Me.ClearButton.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ClearButton.Location = New System.Drawing.Point(167, 49)
+        Me.ClearButton.Location = New System.Drawing.Point(167, 94)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(155, 38)
         Me.ClearButton.TabIndex = 6
@@ -220,7 +220,7 @@ Partial Class MainForm
         Me.FromBinaryButton.Name = "FromBinaryButton"
         Me.FromBinaryButton.Size = New System.Drawing.Size(155, 38)
         Me.FromBinaryButton.TabIndex = 8
-        Me.FromBinaryButton.Text = "From Binary"
+        Me.FromBinaryButton.Text = "From binary"
         Me.FromBinaryButton.UseVisualStyleBackColor = True
         '
         'ToBinaryButton
@@ -231,7 +231,7 @@ Partial Class MainForm
         Me.ToBinaryButton.Name = "ToBinaryButton"
         Me.ToBinaryButton.Size = New System.Drawing.Size(155, 38)
         Me.ToBinaryButton.TabIndex = 7
-        Me.ToBinaryButton.Text = "To Binary"
+        Me.ToBinaryButton.Text = "To binary"
         Me.ToBinaryButton.UseVisualStyleBackColor = True
         '
         'FromBase64Button
@@ -242,7 +242,7 @@ Partial Class MainForm
         Me.FromBase64Button.Name = "FromBase64Button"
         Me.FromBase64Button.Size = New System.Drawing.Size(155, 38)
         Me.FromBase64Button.TabIndex = 6
-        Me.FromBase64Button.Text = "From Base64"
+        Me.FromBase64Button.Text = "From base64"
         Me.FromBase64Button.UseVisualStyleBackColor = True
         '
         'ToBase64Button
@@ -253,7 +253,7 @@ Partial Class MainForm
         Me.ToBase64Button.Name = "ToBase64Button"
         Me.ToBase64Button.Size = New System.Drawing.Size(155, 38)
         Me.ToBase64Button.TabIndex = 6
-        Me.ToBase64Button.Text = "To Base&64"
+        Me.ToBase64Button.Text = "To base64"
         Me.ToBase64Button.UseVisualStyleBackColor = True
         '
         'ExitButton
