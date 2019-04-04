@@ -74,7 +74,7 @@ Public Class Base64Cipher
         Catch ex As Exception
             Init()
             MessageBox.Show(String.Format("Error converting the base64 " &
-                                          "to text. Is in in base64 and your system's " &
+                                          "to text. Is it in base64 and your system's " &
                                           "default format?"))
         End Try
 

@@ -14,9 +14,9 @@ Imports System.Text.RegularExpressions
 
 Public Class MainForm
     Private wordCount As MatchCollection
-    Private base64Cipher As New Base64Cipher
-    Private binaryCipher As New BinaryCipher
-    Private stopWatch As New StopWatch
+    Private ReadOnly base64Cipher As New Base64Cipher
+    Private ReadOnly binaryCipher As New BinaryCipher
+    Private ReadOnly stopWatch As New StopWatch
 
     ' On TextChanged method to display the character and word counts of the input textbox.
     Private Sub InputTextBox_TextChanged(sender As Object, e As EventArgs) Handles InputTextBox.TextChanged
